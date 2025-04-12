@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug go-qdrant-rag-sample",
+        "type": "go",
+        "request": "launch",
+        "mode": "auto",
+        "program": "${workspaceFolder}/cmd/api",
+        "cwd": "${workspaceFolder}",                      // sets working dir
+        "envFile": "${workspaceFolder}/env/.env"   
+      }
+    ]
+  } 
+  
+
+  
