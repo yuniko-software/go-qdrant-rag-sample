@@ -43,10 +43,6 @@ From the project root, run:
 
 This command initializes the Qdrant collection if it does not exist, checks whether the collection is empty, ingests the dataset from `data/products.csv` if necessary, and starts the REST API server on `http://localhost:8080`.
 
-## API Endpoints
-
-
-Set breakpoints and launch the debugger using Run > Start Debugging.
 
 ## API Endpoints
 
