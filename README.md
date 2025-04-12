@@ -31,14 +31,14 @@ This file is used to configure the application for accessing OpenAI and Qdrant.
 
 Start only the Qdrant container using the following command:
 
-docker-compose up -d qdrant
+`docker-compose up -d qdrant`
 
 
 ### Step 2: Run the Go Application
 
 From the project root, run:
 
-go run ./cmd/api
+`go run ./cmd/api`
 
 
 This command initializes the Qdrant collection if it does not exist, checks whether the collection is empty, ingests the dataset from `data/products.csv` if necessary, and starts the REST API server on `http://localhost:8080`.
