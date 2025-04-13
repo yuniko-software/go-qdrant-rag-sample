@@ -18,10 +18,10 @@ This application simulates a product search system for an online catalog using O
 
 Create an environment file at `env/.env` with the following content:
 
-OPENAI_API_KEY=`your-api-key-here` 
-
-QDRANT_HOST=`http://localhost:6333`
-
+```
+OPENAI_API_KEY=your-api-key-here 
+QDRANT_HOST=http://localhost:6333
+```
 
 This file is used to configure the application for accessing OpenAI and Qdrant.
 
